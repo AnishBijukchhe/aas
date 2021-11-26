@@ -1,0 +1,151 @@
+/* Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*main Styling*/
+html,body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7em;
+    background-color: rgb(84, 184, 184);
+
+}
+a{
+    color: #333;
+    text-decoration: none;
+
+}
+h1,h2,h3{
+
+    padding: 10px;
+
+}
+p{
+    margin: 10px;
+
+}
+/* utility classes*/
+.container{
+    margin: auto;
+    max-width: 1100px; ;
+    overflow:auto;
+    padding: 0 20px; 
+}
+.text-primary{
+    color: rgb(76, 197, 20); ;
+}
+.text-secondary{
+    color: #16cbd8;
+}
+.lead
+{
+    font-size: 20px;
+
+}
+.btn{
+    display: inline-table;
+    font-size: 18px;
+    background: #333;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    align-self: auto;
+}
+.btn:hover{
+
+    background: #f7c08a; 
+    padding: 20px;
+}
+.controller{
+    font-size: 20px;
+  
+    max-width: 500px;
+    max-height: 200px;
+    position: relative;
+
+}
+.logo{
+    color: gold;
+}
+.signup-box{
+    background-origin: padding-box;
+
+}
+/*navbar*/
+#navbar{
+    background: #041872d2;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+ position: relative;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;    
+}
+#navbar ul li a:hover{
+    background-color: rgb(140, 240, 240);
+    color:#333;
+
+
+
+}
+/* showcase*/
+#showcase{
+    background-color: cornflowerblue;
+    height: 600px;
+
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+
+}
+#showcase .showcase-content h1{
+    font-size: 35px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    text-align: center;
+}
+#box1{
+    background: #f7c08a;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 500px;
+    text-align: left;
+}
+#box2{
+    background: #2f22e9;
+    max-width: 500px;
+    max-height: 500px;
+}
+#box3{
+    background: #ca2881;
+    max-width: 500px;
+    max-height: 500px;
+}
+#box4{
+    background: #8ef78a;
+    max-width: 500px;
+    max-height: 500px;
+}
